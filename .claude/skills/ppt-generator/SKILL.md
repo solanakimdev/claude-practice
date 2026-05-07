@@ -58,7 +58,7 @@ pip show python-pptx > /dev/null 2>&1 || pip install python-pptx -q
 Then build a JSON payload and pass it to the script:
 
 ```bash
-python /Users/seol/.claude/skills/ppt-generator/scripts/generate_pptx.py '<json>' '<output_path>'
+python .claude/skills/ppt-generator/scripts/generate_pptx.py '<json>' '<output_path>'
 ```
 
 **JSON schema:**
