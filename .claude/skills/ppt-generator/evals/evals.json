@@ -1,0 +1,23 @@
+{
+  "skill_name": "ppt-generator",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "Hey, can you make me a PPT on AI in healthcare? It's for hospital executives, about 10 slides. I want to pitch why we should invest in AI diagnostics.",
+      "expected_output": "A .pptx file with ~10 slides covering AI in healthcare diagnostics, pitched to executives. Each slide has title, key message, and visual instructions. Ends with a self-review checklist.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "prompt": "I need to create presentation materials for a new employee onboarding session. The audience is fresh college grads joining our engineering team. Should be around 8 slides and cover: company culture, how we work, tools we use, and what to expect in the first 90 days.",
+      "expected_output": "A .pptx with ~8 slides for new engineer onboarding. Content covers culture, working style, tooling, and 90-day expectations. Visual instructions and key messages tailored to a fresh-grad audience.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Build me a slide deck about climate change impacts for a high school science class. Keep it to about 6 slides, make it engaging for teenagers.",
+      "expected_output": "A .pptx with ~6 slides on climate change impacts, written for teenagers. Uses accessible language, engaging visuals, concrete examples. Includes self-review checklist.",
+      "files": []
+    }
+  ]
+}
