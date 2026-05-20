@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+**/node_modules
 /.pnp
 .pnp.*
 .yarn/*
@@ -43,3 +44,9 @@ next-env.d.ts
 # skills
 **/__pycache__/
 .claude/skills/ppt-generator/workspace/
+
+# MCP config (contains API keys)
+.mcp.json
+
+# MCP server build artifacts
+mcp-plan-review/dist/
