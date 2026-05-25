@@ -16,6 +16,9 @@ export default function Home() {
           }}
         >
           <Typography variant='h1'>Practice Claude Code</Typography>
+          <Button variant='contained' sx={{ mt: 4 }}>
+            Click me
+          </Button>
         </Box>
       </main>
     </div>
