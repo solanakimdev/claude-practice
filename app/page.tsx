@@ -1,6 +1,6 @@
 'use client';
 
-import { Box, Typography } from '@mui/material';
+import { Box, Button, Typography } from '@mui/material';
 
 export default function Home() {
   return (
@@ -16,6 +16,7 @@ export default function Home() {
           }}
         >
           <Typography variant='h1'>Practice Claude Code</Typography>
+          <Button variant='contained' sx={{ mt: 4 }}>Click me</Button>
         </Box>
       </main>
     </div>
